@@ -1,0 +1,64 @@
+/** freeCodeCamp Tribute Exercise - W.E.B. Du Bois March 2019 -bshaw334 **/
+body {
+	background-color: #bada55;
+}
+#main {
+  padding: 25px;
+  background-color: #bada55;
+  overflow: auto;
+}
+#header {
+	align-content: center;
+  background-image:url("https://www.biography.com/.image/t_share/MTQ1MTQxMDcwODEwODUwNzEy/web-dubois---rivalry-with-booker-t-washington.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+#header h1 {
+  padding: 15px;
+  color:#bada55;
+  font-weight:700;
+  text-shadow: 3px 2px 4px black;
+}
+#title {
+	
+}
+/**  #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size. | #9: The img element should be centered within its parent element. **/
+img {
+	max-width: 100%;
+  display: block;
+  height: auto;
+}
+#img-div {
+  padding:5px;	
+}
+#img-caption {
+  text-align:center;
+  font-style:italic;
+}
+#tribute-info {
+  content: center;
+  background-color: #999999;
+	min-height:100vh;
+  padding: 25px;
+}
+#facts {
+  padding: 25px;
+	min-height:100vh;
+}
+.facts {
+	max-width: 350px;
+	float:left;
+}
+#noteable {
+	
+}
+#education {
+	
+}
+#footer {
+	
+}
+#tribute-link {
+	
+}
